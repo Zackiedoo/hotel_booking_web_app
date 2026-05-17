@@ -6,7 +6,7 @@ const hotelsData = [
     name: "Basco Grand Hotel",
     location: "Basco",
     pricePerNight: 4500,
-    imagePlaceholder: "🏨", // Using emoji as image placeholder
+    imagePlaceholder: "🏨",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const hotelsData = [
     name: "Fundacion Pacita",
     location: "Basco",
     pricePerNight: 12000,
-    imagePlaceholder: "🎨",
+    imageUrl: "images/fundacion pacita.png",
   },
   {
     id: 4,
