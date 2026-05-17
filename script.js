@@ -96,7 +96,9 @@ function renderHotels(hotels) {
     const card = document.createElement("div");
     card.className = "hotel-card";
     card.innerHTML = `
-            <div class="hotel-image">${hotel.imagePlaceholder}</div>
+            <div class="hotel-image">
+                <img src="${hotel.imageUrl}" alt="${hotel.name}" class="card-img" />
+            </div>
             <div class="hotel-info">
                 <h3 class="hotel-name">${hotel.name}</h3>
                 <p class="hotel-location">📍 ${hotel.location}</p>
