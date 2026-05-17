@@ -27,14 +27,14 @@ const hotelsData = [
     name: "Savatan Homestay",
     location: "Mahatao",
     pricePerNight: 1800,
-    imagePlaceholder: "🛖",
+    imageUrl: "images/savatan homestay.png",
   },
   {
     id: 5,
     name: "Amboy Hometel",
     location: "Basco",
     pricePerNight: 3500,
-    imagePlaceholder: "🏖️",
+    imageUrl: "images/amboy hometel.png",
   },
 ];
 
